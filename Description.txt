@@ -1,0 +1,54 @@
+AscenD Finance - Initital Requirements
+
+Project Vision
+
+AscenD Finance aims to become the best personal finance management app in the world. Its main goal is to help users manage their money wisely, avoid waste, and clearly understand the difference between necessities, investments, savings, and status-driven expenses — providing clarity and financial balance.
+
+In the long term, the app will evolve into an intelligent financial assistant, powered by AI, that not only organizes expenses but also provides personalized advice for a healthy financial lifestyle.
+---
+MVP – Core Features
+1. Main expense categories
+Necessity – essential expenses (e.g., food, rent, transport).
+Investment – expenses that bring value or improve life/profession (e.g., courses, work tools, productivity devices).
+Status – expenses for luxury, image, or indulgence (e.g., expensive phones, watches, branded clothes).
+Savings – money set aside.
+➝ The user will be able to input data manually or automatically (by scanning a receipt/invoice).
+
+2. Manual & automatic input
+Manual: user adds amount, description, and category.
+Automatic: receipt scanning (for MVP even simplified, with future potential AI development for automatic categorization).
+3. Simple & attractive UI (User Interface)
+Dashboard with colored circles for each category (Necessity, Status, Investment, Savings).
+Tapping on a circle → quickly add an expense or income.
+Modern emerald-style design, clean and elegant.
+
+4. Daily motivational message (Powered by AI – if possible in MVP)
+Every day, the app displays a new message about money value, financial discipline, and smart spending.
+Examples: “Money managed well = freedom of life” or “Invest today, enjoy tomorrow.”
+Messages should be unique, varied, and engaging — powered by AI, so users always feel inspired.
+---
+Philosophy
+AscenD Finance is not just a money-tracking app. It is a personal financial assistant that learns from user behavior, provides value through unique daily messages, and helps people understand how important money really is when managed correctly.
+
+Regarding the provided design for the AscenD Finance app, please note that the user interface text is currently in Romanian. For the final product, all text elements must be translated into English to match our target audience.
+
+Please use the following exact translations for the on-screen text:
+1. Branding & Header:
+· Keep as is: "AscenD Finance" (The brand name does not need translation).
+· Tagline Translation: Change "Stăpânește-ți banii. Eliberează-ți viața." to:
+· "Master your money. Liberate your life."
+
+2. Core Feature: The Four Category Circles Please translate the four category names:
+· Necesitate → Necessity
+· Investiție → Investment
+· Statut → Status
+· Economii → Savings
+
+3. "Adaugă cheltuială" Button & Modal:
+· Button Translation: Change "Adaugă cheltuială" to "Add Expense"
+· Modal Options Translation: Change the three options inside the pop-up to:
+· Cheltuială inutilă → Status
+· Trebuință → Necessity
+· Investiție → Investment
+
+The visual design, color scheme Emerald Green. Text color (Gold, White, Black), and the layout with the four circles must remain exactly the same. Only the language of the text should be updated.

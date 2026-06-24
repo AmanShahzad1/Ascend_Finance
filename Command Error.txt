@@ -1,0 +1,122 @@
+PS C:\Aman\Learning Azure\AscenD-Finance> npm run init-db
+
+> ascend-finance@0.1.0 init-db
+> tsx scripts/init-db.ts
+
+[dotenv@17.2.2] injecting env (4) from .env.local -- tip: ⚙️  suppress all logs with
+ { quiet: true }
+[dotenv@17.2.2] injecting env (4) from .env.local -- tip: 📡 version env with Radar: https://dotenvx.com/radar
+🚀 Initializing AscenD Finance Database...
+📡 Using DATABASE_URL for connection...
+✅ Database connected successfully
+🚀 Creating database tables...
+Database query error: error: extension "uuid-ossp" is not allow-listed for users in 
+Azure Database for PostgreSQL
+    at C:\Aman\Learning Azure\AscenD-Finance\node_modules\pg-pool\index.js:45:11    
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)  
+    at async query (C:\Aman\Learning Azure\AscenD-Finance\lib\database.ts:58:17)    
+    at async createTables (C:\Aman\Learning Azure\AscenD-Finance\lib\schema.ts:9:5) 
+    at async initializeDatabase (C:\Aman\Learning Azure\AscenD-Finance\lib\schema.ts:187:5)
+    at async main (C:\Aman\Learning Azure\AscenD-Finance\scripts\init-db.ts:36:5) { 
+  length: 301,
+  severity: 'ERROR',
+  code: '0A000',
+  detail: undefined,
+  hint: 'to learn how to allow an extension or see the list of allowed extensions, please refer to https://go.microsoft.com/fwlink/?linkid=2301063',
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'azure_utils.c',
+  line: '1028',
+  routine: 'check_extension_permissions'
+}
+❌ Error creating database tables: error: extension "uuid-ossp" is not allow-listedf
+or users in Azure Database for PostgreSQL
+    at C:\Aman\Learning Azure\AscenD-Finance\node_modules\pg-pool\index.js:45:11    
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)  
+    at async query (C:\Aman\Learning Azure\AscenD-Finance\lib\database.ts:58:17)    
+    at async createTables (C:\Aman\Learning Azure\AscenD-Finance\lib\schema.ts:9:5) 
+    at async initializeDatabase (C:\Aman\Learning Azure\AscenD-Finance\lib\schema.ts:187:5)
+    at async main (C:\Aman\Learning Azure\AscenD-Finance\scripts\init-db.ts:36:5) { 
+  length: 301,
+  severity: 'ERROR',
+  code: '0A000',
+  detail: undefined,
+  hint: 'to learn how to allow an extension or see the list of allowed extensions, please refer to https://go.microsoft.com/fwlink/?linkid=2301063',
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'azure_utils.c',
+  line: '1028',
+  routine: 'check_extension_permissions'
+}
+💥 Database initialization failed: error: extension "uuid-ossp" is not allow-listed 
+for users in Azure Database for PostgreSQL
+    at C:\Aman\Learning Azure\AscenD-Finance\node_modules\pg-pool\index.js:45:11    
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)  
+    at async query (C:\Aman\Learning Azure\AscenD-Finance\lib\database.ts:58:17)    
+    at async createTables (C:\Aman\Learning Azure\AscenD-Finance\lib\schema.ts:9:5) 
+    at async initializeDatabase (C:\Aman\Learning Azure\AscenD-Finance\lib\schema.ts:187:5)
+    at async main (C:\Aman\Learning Azure\AscenD-Finance\scripts\init-db.ts:36:5) { 
+  length: 301,
+  severity: 'ERROR',
+  code: '0A000',
+  detail: undefined,
+  hint: 'to learn how to allow an extension or see the list of allowed extensions, please refer to https://go.microsoft.com/fwlink/?linkid=2301063',
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'azure_utils.c',
+  line: '1028',
+  routine: 'check_extension_permissions'
+}
+💥 Database initialization failed: error: extension "uuid-ossp" is not allow-listed 
+for users in Azure Database for PostgreSQL
+    at C:\Aman\Learning Azure\AscenD-Finance\node_modules\pg-pool\index.js:45:11    
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)  
+    at async query (C:\Aman\Learning Azure\AscenD-Finance\lib\database.ts:58:17)    
+    at async createTables (C:\Aman\Learning Azure\AscenD-Finance\lib\schema.ts:9:5) 
+    at async initializeDatabase (C:\Aman\Learning Azure\AscenD-Finance\lib\schema.ts:187:5)
+    at async main (C:\Aman\Learning Azure\AscenD-Finance\scripts\init-db.ts:36:5) { 
+  length: 301,
+  severity: 'ERROR',
+  code: '0A000',
+  detail: undefined,
+  hint: 'to learn how to allow an extension or see the list of allowed extensions, please refer to https://go.microsoft.com/fwlink/?linkid=2301063',
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'azure_utils.c',
+  line: '1028',
+  routine: 'check_extension_permissions'
+}
+💡 Common issues:
+   - PostgreSQL not running
+   - Wrong database credentials in .env.local
+   - Database does not exist
+   - Connection timeout
+PS C:\Aman\Learning Azure\AscenD-Finance> 

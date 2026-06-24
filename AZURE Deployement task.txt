@@ -1,0 +1,17 @@
+The team currently deploys web applications using AWS Elastic Beanstalk or EC2 instances. Azure App Service is the equivalent fully-managed PaaS offering for hosting web apps, REST APIs, and mobile backends. This task guides us through deploying a simple web application to Azure App Service, understanding deployment slots, and connecting a basic CI/CD pipeline.
+Acceptance Criteria
+• An App Service Plan (Free F1 tier) has been created in the Azure Portal. 
+• A Web App is created and linked to the App Service Plan. 
+• A sample Node.js or Python web app is deployed (via ZIP deploy or GitHub Actions). 
+• The app is accessible via the default Azure URL (*.azurewebsites.net). 
+• Environment variables (App Settings) are configured for the deployed app.
+ • A staging deployment slot is created and the app is swapped to production.
+ • A short write-up comparing Elastic Beanstalk vs App Service is completed.
+Instructions & Tips
+Azure Portal → App Services → Create → select subscription and resource group
+Choose Runtime: Node.js 20 LTS or Python 3.11. Select Free F1 plan
+Deploy via CLI: az webapp up --name <app-name> --resource-group <rg> --runtime 'NODE:20-lts'
+Or connect GitHub: App Service → Deployment Center → GitHub → select repo and branch
+Add env vars: App Service → Configuration → Application Settings
+Deployment slots: App Service → Deployment Slots → Add Slot → name it 'staging'
+AWS mapping: Elastic Beanstalk Environment = App Service, EB Application Versions = Deployment Slots
