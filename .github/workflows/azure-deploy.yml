@@ -3,7 +3,7 @@ name: Deploy AscenD Finance to Azure App Service
 on:
   push:
     branches:
-      - production
+      - main
   workflow_dispatch:
 
 jobs:
