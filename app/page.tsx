@@ -45,7 +45,7 @@ export default function Home() {
           {/* Logo/App Name */}
           <div className="mb-6 sm:mb-8 md:mb-12">
             <h1 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif text-transparent bg-clip-text bg-gradient-to-r from-amber-100 via-amber-200 to-amber-300 mb-3 sm:mb-4 md:mb-6 tracking-tight drop-shadow-2xl leading-tight">
-              <span className="font-light">Ascen</span><span className="font-bold">D</span> <span className="font-light">Finance</span> <span className="text-xs align-super text-amber-400">STAGING</span>
+              <span className="font-light">Ascen</span><span className="font-bold">D</span> <span className="font-light">Finance</span>
             </h1>
             <div className="w-20 xs:w-24 sm:w-32 h-1 bg-gradient-to-r from-amber-200 via-amber-300 to-amber-400 mx-auto rounded-full shadow-lg"></div>
           </div>
